@@ -14,6 +14,7 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   http: ^0.13.4
+  intl: ^0.17.0
 
 dev_dependencies:
   flutter_test:
@@ -23,7 +24,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/
+    - assets/img/
   fonts:
     - family: Heebo
       fonts:
