@@ -45,6 +45,13 @@ class _HomeState extends State<Home> {
           )).toList(),
         ),
       ),
+      bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.red,
+        items: [
+          const BottomNavigationBarItem(icon: Icon(Icons.add), label: "label"),
+          const BottomNavigationBarItem(icon: Icon(Icons.add), label: "label"),
+        ],
+      ),
     );
   }
 }
